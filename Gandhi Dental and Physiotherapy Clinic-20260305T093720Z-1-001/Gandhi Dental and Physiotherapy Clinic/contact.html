@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Contact Gandhi Dental and Physiotherapy Clinic — address, phone, business hours, Google Maps directions, and appointment booking. Located in Bhilai, Chhattisgarh.">
+    <title>Contact Us | Gandhi Dental & Physiotherapy Clinic</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon"
+        href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏥</text></svg>">
+</head>
+
+<body>
+
+    <!-- ===== NAVBAR ===== -->
+    <nav class="navbar scrolled" id="navbar">
+        <div class="container">
+            <a href="index.html" class="nav-logo">
+                <div class="nav-logo-icon">🏥</div>
+                <span>Gandhi Clinic<span class="logo-sub">Dental &amp; Physiotherapy</span></span>
+            </a>
+            <div class="nav-links" id="navLinks">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="services.html">Services</a>
+                <a href="contact.html" class="active">Contact</a>
+                <a href="#" class="nav-cta" data-open-modal>Book Appointment</a>
+            </div>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- ===== PAGE HERO ===== -->
+    <section class="page-hero">
+        <div class="container">
+            <h1>Contact Us</h1>
+            <p>Get in touch with us for appointments, queries, or visit our clinic</p>
+            <div class="breadcrumb">
+                <a href="index.html">Home</a> <span>/</span> <span>Contact</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== CONTACT SECTION ===== -->
+    <section class="section">
+        <div class="container">
+            <div class="contact-grid">
+                <!-- LEFT: Info Cards -->
+                <div>
+                    <div class="contact-info-cards">
+                        <div class="contact-card reveal">
+                            <div class="contact-card-icon">📍</div>
+                            <div>
+                                <h4>Our Location</h4>
+                                <p>20A/8, 20/A, Gurudwara Rd, near Rawlani Medicals,<br>Nehru Nagar West, Vidya Vihar
+                                    Colony,<br>Bhilai, Chhattisgarh 490020</p>
+                            </div>
+                        </div>
+                        <div class="contact-card reveal">
+                            <div class="contact-card-icon">📞</div>
+                            <div>
+                                <h4>Phone Number</h4>
+                                <p><a href="tel:+919826992112">098269 92112</a></p>
+                                <p style="font-size: 0.75rem; color: var(--clr-gray); margin-top:0.25rem;">Call us
+                                    during business hours for appointments</p>
+                            </div>
+                        </div>
+                        <div class="contact-card reveal">
+                            <div class="contact-card-icon">🕐</div>
+                            <div>
+                                <h4>Working Hours</h4>
+                                <table class="hours-table" style="margin-top: 0.5rem;">
+                                    <thead>
+                                        <tr>
+                                            <th>Day</th>
+                                            <th>Hours</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>Monday</td>
+                                            <td>10:30 AM – 1:30 PM &amp; 5:30 – 8:30 PM</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Tuesday</td>
+                                            <td>10:30 AM – 1:30 PM &amp; 5:30 – 8:30 PM</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Wednesday</td>
+                                            <td>10:30 AM – 1:30 PM &amp; 5:30 – 8:30 PM</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Thursday</td>
+                                            <td>10:30 AM – 1:30 PM &amp; 5:30 – 8:30 PM</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Friday</td>
+                                            <td>10:30 AM – 1:30 PM &amp; 5:30 – 8:30 PM</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Saturday</td>
+                                            <td>10:30 AM – 1:30 PM &amp; 5:30 – 8:30 PM</td>
+                                        </tr>
+                                        <tr class="day-highlight">
+                                            <td>Sunday</td>
+                                            <td>11:00 AM – 1:00 PM</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                        <div class="contact-card reveal">
+                            <div class="contact-card-icon">♿</div>
+                            <div>
+                                <h4>Accessibility</h4>
+                                <p>Wheelchair-accessible entrance and car park available. Restroom on-site. Appointments
+                                    recommended.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- RIGHT: Contact Form -->
+                <div>
+                    <div class="contact-form reveal">
+                        <h3>Send Us a Message</h3>
+                        <form id="contactForm">
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="contactName">Full Name *</label>
+                                    <input type="text" id="contactName" placeholder="Your full name" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="contactPhone">Phone *</label>
+                                    <input type="tel" id="contactPhone" placeholder="Your phone number" required>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="contactEmail">Email Address</label>
+                                <input type="email" id="contactEmail" placeholder="your@email.com">
+                            </div>
+                            <div class="form-group">
+                                <label for="contactSubject">Subject</label>
+                                <select id="contactSubject">
+                                    <option value="">Select Topic</option>
+                                    <option value="appointment">Appointment Inquiry</option>
+                                    <option value="dental">Dental Services</option>
+                                    <option value="physio">Physiotherapy Services</option>
+                                    <option value="general">General Inquiry</option>
+                                    <option value="feedback">Feedback</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="contactMessage">Message *</label>
+                                <textarea id="contactMessage" rows="5" placeholder="Tell us how we can help..."
+                                    required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary" style="width:100%">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== MAP SECTION ===== -->
+    <section class="section" style="background: var(--clr-off-white); padding-top: 0;">
+        <div class="container">
+            <div class="section-header reveal">
+                <h2>Find Us on the Map</h2>
+                <div class="accent-line"></div>
+                <p>We're located on Gurudwara Road, near Rawlani Medicals, Nehru Nagar West, Bhilai</p>
+            </div>
+            <div class="map-container reveal">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3718.853!2d81.372!3d21.209!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a293d69f1a6e3b1%3A0x1234567890abcdef!2sGandhi+Dental+and+Physiotherapy+Clinic!5e0!3m2!1sen!2sin!4v1234567890"
+                    width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade" title="Gandhi Dental and Physiotherapy Clinic Location">
+                </iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== CTA ===== -->
+    <section class="cta-section">
+        <div class="container reveal">
+            <h2>Ready to Book Your Visit?</h2>
+            <p>We're accepting appointments Monday through Sunday. Call us or book online to secure your slot.</p>
+            <div class="cta-buttons">
+                <a href="#" class="btn btn-accent" data-open-modal>📅 Book Appointment</a>
+                <a href="tel:+919826992112" class="btn btn-outline">📞 Call: 098269 92112</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="index.html" class="nav-logo">
+                        <div class="nav-logo-icon">🏥</div>
+                        <span>Gandhi Clinic<span class="logo-sub">Dental &amp; Physiotherapy</span></span>
+                    </a>
+                    <p>Your trusted partner for comprehensive dental care and physiotherapy treatment in Bhilai,
+                        Chhattisgarh.</p>
+                </div>
+                <div>
+                    <h4>Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html">→ Home</a></li>
+                        <li><a href="about.html">→ About Us</a></li>
+                        <li><a href="services.html">→ Services</a></li>
+                        <li><a href="contact.html">→ Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>Our Services</h4>
+                    <ul class="footer-links">
+                        <li><a href="services.html">→ General Dentistry</a></li>
+                        <li><a href="services.html">→ Physiotherapy</a></li>
+                        <li><a href="services.html">→ Cryotherapy</a></li>
+                        <li><a href="services.html">→ TENS Therapy</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>Contact Us</h4>
+                    <ul class="footer-contact">
+                        <li>
+                            <span class="icon">📍</span>
+                            <span>20A/8, 20/A, Gurudwara Rd, Nehru Nagar West, Bhilai, CG 490020</span>
+                        </li>
+                        <li>
+                            <span class="icon">📞</span>
+                            <a href="tel:+919826992112">098269 92112</a>
+                        </li>
+                        <li>
+                            <span class="icon">🕐</span>
+                            <span>Mon-Sat: 10:30 AM – 1:30 PM &amp; 5:30 – 8:30 PM</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <span>&copy; 2026 Gandhi Dental &amp; Physiotherapy Clinic. All Rights Reserved.</span>
+                <span>Crafted with ❤️ in Bhilai</span>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ===== APPOINTMENT MODAL ===== -->
+    <div class="modal-overlay" id="appointmentModal">
+        <div class="modal">
+            <div class="modal-header">
+                <h3>📅 Book Appointment</h3>
+                <button class="modal-close" data-close-modal>✕</button>
+            </div>
+            <form id="appointmentForm">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="patientName">Full Name *</label>
+                        <input type="text" id="patientName" placeholder="Your full name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="patientPhone">Phone Number *</label>
+                        <input type="tel" id="patientPhone" placeholder="Your phone number" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="patientEmail">Email Address</label>
+                    <input type="email" id="patientEmail" placeholder="your@email.com">
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="appointmentDate">Preferred Date *</label>
+                        <input type="date" id="appointmentDate" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="appointmentService">Service *</label>
+                        <select id="appointmentService" required>
+                            <option value="">Select Service</option>
+                            <option value="dental">General Dentistry</option>
+                            <option value="physio-back">Back Pain Treatment</option>
+                            <option value="physio-joint">Joint Pain Treatment</option>
+                            <option value="cryotherapy">Cryotherapy</option>
+                            <option value="heat-therapy">Heat Therapy</option>
+                            <option value="tens">TENS Therapy</option>
+                            <option value="spinal">Spinal Treatment</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="appointmentMessage">Message (Optional)</label>
+                    <textarea id="appointmentMessage" rows="3" placeholder="Any specific concerns..."></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary" style="width:100%">Confirm Appointment</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
